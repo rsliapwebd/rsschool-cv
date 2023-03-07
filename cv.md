@@ -15,26 +15,19 @@ HTML, CSS, JavaScript
 
 ## Code example
 
-```
-
-```
-
+```js
 // Get weather data
 const getWeatherData = async function (obj) {
-try {
-const jsonData = await fetch(
-`https://api.openweathermap.org/data/2.5/weather?lat=${obj.lat}&lon=${obj.long}&appid=c4fd4dbbe8a63984662de3192f30f560`
-);
-const data = await jsonData.json();
-console.log(data);
-renderInfo(data);
-} catch (err) {
-alert("Somethimg went wrong :(");
-}
+  try {
+    const jsonData = await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?lat=${obj.lat}&lon=${obj.long}&appid=c4fd4dbbe8a63984662de3192f30f560`
+    );
+    const data = await jsonData.json();
+    renderInfo(data);
+  } catch (err) {
+    alert("Somethimg went wrong :(");
+  }
 };
-
-```
-
 ```
 
 ## Experience
@@ -49,4 +42,4 @@ Environmental Engineer, Francisk Skorina Gomel State University, 2013
 
 - Belarusian
 - English B2
-- Russian
+  -Russian
