@@ -1,1 +1,1 @@
-# rsschool-cv
+https://rsliapwebd.github.io/rsschool-cv/
