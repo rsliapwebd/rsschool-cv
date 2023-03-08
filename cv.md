@@ -42,4 +42,4 @@ Environmental Engineer, Francisk Skorina Gomel State University, 2013
 
 - Belarusian
 - English B2
-  -Russian
+- Russian
